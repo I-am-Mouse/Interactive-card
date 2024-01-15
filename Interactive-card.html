@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="Interactive-card.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  
+  
+  <title>Interactive card</title>
+
+  <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: #4ad; }
+  </style>
+</head>
+<body>
+
+    <main class="flex">
+
+        <section class="flex section-one">
+
+            <div class="div-one">
+
+                <p class="div-one-p">000</p>
+
+            </div>
+            
+            <div class="div-two">
+
+			        <img src="images/card-logo.svg" alt="div-two-logo" class="logo">
+
+                    <h2 class="div-two-h2">0000 0000 0000 0000</h2>
+
+                    <article class="flex div-two-article">
+
+                        <span class="div-two-span-1">Jane Appleseed</span>
+
+                        <article class="div-two-article-2">
+
+                            <span class="div-two-span-2">00</span>
+                            <span class="div-two-span-3">/</span>
+                            <span class="div-two-span-4">00</span> 
+                             
+                        </article>
+                       
+                        
+                    </article>
+                    
+            </div>
+            
+        </section>
+
+        <section class="section-two">
+
+                <article class="article-one">
+                        <h3>Cardholder Name</h3>
+                    
+                        <input type="text" class="article-one-input" Placeholder="e.g. Jane Appleseed"/>
+                    
+                </article>
+
+                <article class="article-two">
+                        <h3>Card Number</h3>
+                    
+                        <input type="" class="article-two-input" Placeholder="e.g. 1234 5678 9123 0000" maxlength="16"/>
+                        <p class="error-message-1"></p>
+                </article>
+
+                <div class="flex">
+                    <article class="article-three">
+                            <h3>Exp. Date (MM/YY)</h3>
+                            <input type="number" class="article-three-input-1" Placeholder="MM" maxlength="2"/> 
+                            <input type="number" class="article-three-input-2" Placeholder="YY" maxlength="2"/> 
+                            <p class="error-message-2"></p>
+                    </article>
+
+                    <article class="article-four">
+
+                            <h3>CVC</h3>
+                        
+                            <input type="number" class="article-four-input" Placeholder="e.g. 123" maxlength="3"/>
+                            <p class="error-message-3"></p>
+
+                    </article>
+                </div>
+
+                <button class="confirm-button"><a href="#">Confirm</a></button>
+
+        </section>
+
+    </main>
+
+
+</body>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" style="font-family: verdana;">ARIB</a>. 
+        Coded by <a href="#" style="font-family: segoe script;">Mouse</a>
+    </div>
+    <script src="Interactive-card.js"></script>
+</html>
